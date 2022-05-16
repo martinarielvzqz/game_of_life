@@ -1,4 +1,3 @@
-import pstats
 import unittest
 
 from life import Life, CellList
@@ -46,15 +45,15 @@ class TestCellList(unittest.TestCase):
     # #     assert not c.has(1, 2)
     # #     assert list(c) == []
 
+
 class TestLife(unittest.TestCase):
+
     def test_new(self):
-        assert 1 == 1
-    # def test_new(self):
-    #     life = Life()
-    #     assert life.survival == [2, 3]
-    #     assert life.birth == [3]
-    #     assert list(life.living_cells()) == []
-    #     assert life.rules_str() == '23/3'
+        life = Life()
+        assert life.survival == [2, 3]
+        assert life.birth == [3]
+        assert list(life.living_cells()) == []
+        assert life.rules_str() == '23/3'
 
     # def test_new_custom(self):
     #     life = Life([3, 4], [4, 7, 8])
@@ -62,5 +61,3 @@ class TestLife(unittest.TestCase):
     #     assert life.birth == [4, 7, 8]
     #     assert list(life.living_cells()) == []
     #     assert life.rules_str() == '34/478'
-
-
