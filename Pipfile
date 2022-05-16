@@ -5,8 +5,9 @@ name = "pypi"
 
 [packages]
 pygame = "*"
-pytest = "*"
 pytest-cov = "*"
+pytest = "*"
+python-coveralls = "*"
 
 [dev-packages]
 
