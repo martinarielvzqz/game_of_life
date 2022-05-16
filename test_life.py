@@ -54,11 +54,11 @@ class TestLife(unittest.TestCase):
         assert list(life.living_cells()) == []
         assert life.rules_str() == '23/3'
 
-    def test_new_custom(self):
-        life = Life([3, 4], [4, 7, 8])
-        assert life.survival == [3, 4]
-        assert life.birth == [4, 7, 8]
-        assert list(life.living_cells()) == []
-        assert life.rules_str() == '34/478'
+    # def test_new_custom(self):
+    #     life = Life([3, 4], [4, 7, 8])
+    #     assert life.survival == [3, 4]
+    #     assert life.birth == [4, 7, 8]
+    #     assert list(life.living_cells()) == []
+    #     assert life.rules_str() == '34/478'
 
 

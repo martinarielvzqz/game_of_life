@@ -4,6 +4,6 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - pytest --cov=life --cov-report=term-missing | coveralls
-# after_success:
-#   - coveralls
+  - pytest --cov=life --cov-report=term-missing
+after_success:
+  - coveralls
