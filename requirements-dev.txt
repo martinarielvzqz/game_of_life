@@ -1,0 +1,5 @@
+pytest
+coveralls
+PyYAML
+coverage
+flake8
