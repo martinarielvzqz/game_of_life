@@ -1,5 +1,6 @@
 pygame
-pytest-cov
+# pytest-cov
 pytest
 coveralls
 PyYAML
+coverage
